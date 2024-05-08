@@ -1,11 +1,8 @@
 import socket
-
 SERVER_IP = "127.0.0.1"  # Replace with the server's IP address
 SERVER_PORT = 9999
-
 def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
     while True:
         print("Tourism Management System Menu:")
         print("1. List Tourist Places")
